@@ -1,7 +1,7 @@
 nelmio_cors:
     defaults:
         origin_regex: false
-        allow_origin: ['http://localhost:5173']
+        allow_origin: ['http://localhost:5173', 'http://16.171.170.250']
         allow_methods: ['GET', 'OPTIONS']
         allow_headers: ['Content-Type']
         max_age: 3600
